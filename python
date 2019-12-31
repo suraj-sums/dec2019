@@ -1,2 +1,7 @@
-helllo
+sum = 0
+file_handle = open("file.txt")
+for i in file_handle:
+    sum = sum +int(i)
+    print(i)
+print(sum)
 
